@@ -14,7 +14,8 @@ fun main() {
     var hexaLiteral: Int = 0xFA659C //0x is sign for hexadecimal number
     var binaryLiteral: Int = 0b00101010010
 
-    println(distance)
-    println(balance)//will print hexa number in decimal type (16410012)
-    println(radius)//will print binary number in decimal type (338)
+    //conversion
+    var HexaToInt: Int = hexaLiteral.toInt()
+
+    println(HexaToInt)//16410012
 }
