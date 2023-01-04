@@ -6,9 +6,9 @@ fun main() {
     var fullname: String = "Rohmat Star"
 
     var address: String = """
-       Jl. XYX No. 123
-        Banten - ID
-    """
+       |Jl. XYX No. 123
+        |Banten - ID
+    """.trimMargin()
 
     println(firstname)
     println(lastname)
